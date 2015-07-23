@@ -1,1 +1,0 @@
-// TODO: Masonary.js gallery.
