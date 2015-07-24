@@ -1,5 +1,16 @@
+#consultant-page-container  {
+  width: 100%;
+  padding-left: 100px;
+}
+
+
 #header  {
   border-bottom: 1px solid #FAE4CF;
+  width: 100%;
+}
+
+.cp-below-header-block-container {
+  width: 100%;
 }
 
 .vmenu  {
@@ -8,6 +19,7 @@
   width: 10%;
   padding-right: 20px;
   padding-top:  10px;
+  height:  100%;
 }
 
 .vmenu ul {
@@ -16,7 +28,6 @@
   font-size: 12px;
   color: #06658B;
   text-decoration: none;
-  height:  100%;
 }
 
 .vmenu li  {
@@ -24,11 +35,28 @@
   border-bottom: 1px dashed #EB7E25;
 }
 
-.consultant-container {
-  width: 81%;
-  padding:  10px 0 10px 18px;
+.all-consultants-container {
+  width: 51%;
   float: left;
+  padding:  10px 0 10px 18px;
 }
+
+.consultant-container {
+  padding-bottom:  50px;
+}
+
+.consultant-banner-img  {
+  float: left;
+  padding:  25px 0 20px 18px;
+}
+
+.consultant-image  {
+  float: left;
+  border:  1px solid #f97b17;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
 
 .consultant-name  {
   font-family: Arial, serif;
@@ -39,8 +67,10 @@
 .consultant-text  {
   display: inline;
   padding-left: 10px;
+  font-family: Arial, serif;
+  font-size: 11pt;
+  text-align: justify;
 }
-
 
 .logo-text-mind  {
   color: #016589;
